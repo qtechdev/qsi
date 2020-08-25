@@ -66,7 +66,7 @@ clean:
 
 .PHONY: install
 install:
-	cp ${LIB_VER} /usr/local/lib
-	ln -sf ${LIB_VER} ${LIB_NAME}
+	cp ${LIB_VER} /usr/local/lib/
+	ln -sf ${LIB_VER} /usr/local/lib/${LIB_NAME}
 	mkdir -p /usr/local/include/${NAME}/
 	cp ${HEADERS} /usr/local/include/${NAME}/
