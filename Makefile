@@ -1,6 +1,6 @@
 NAME=qsi
 V_MAJOR=1
-V_MINOR=0
+V_MINOR=1
 V_MICRO=0
 LIB_NAME=lib${NAME}.so
 LIB_PATH=out/${LIB_NAME}
@@ -15,7 +15,7 @@ TESTS_LD_FLAGS=${LIB_PATH_V}
 TESTS_CXX_FLAGS=-std=c++20 -Wall -Wextra -pedantic -Isrc/
 
 SOURCES=$(wildcard src/*.cpp)
-HEADERS=$(wildcard src/*.hpp)
+HEADERS=$(wildcard src/*.hpp) $(wildcard src/*.inl)
 OBJECTS=$(patsubst src/%,build/%,${SOURCES:.cpp=.o})
 DIRS=$(sort $(dir ${OBJECTS})) build/include
 
