@@ -53,10 +53,10 @@ namespace qsi {
   inline namespace output {
     template <typename T, typename=enable_if_qsi<T>>
     inline std::ostream &operator<<(std::ostream &os, const T v);
-  };
+  }
 
-  inline namespace literals {};
-};
+  inline namespace literals {}
+}
 
 #include "base.inl"
 

@@ -15,8 +15,8 @@ namespace qsi {
   inline namespace literals {
     constexpr area operator""_m2(long double v);
     constexpr area operator""_m2(unsigned long long v);
-  };
-};
+  }
+}
 
 #include "area.inl"
 

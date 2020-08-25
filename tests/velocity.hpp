@@ -14,6 +14,6 @@ namespace qsi {
   inline velocity operator/(length lhs, const time &rhs) {
     return velocity(lhs.value / rhs.value);
   }
-};
+}
 
 #endif // __QSI_DERIVED_UNIT_VELOCITY__
