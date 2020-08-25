@@ -17,8 +17,8 @@ namespace qsi {
     constexpr length operator""_ft(unsigned long long ft);
     constexpr length operator""_in(long double in);
     constexpr length operator""_in(unsigned long long in);
-  };
-};
+  }
+}
 
 #include "length.inl"
 

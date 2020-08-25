@@ -16,8 +16,8 @@ namespace qsi {
   inline namespace literals {
     constexpr area_density operator""_kgm2(long double v);
     constexpr area_density operator""_kgm2(unsigned long long v);
-  };
-};
+  }
+}
 
 #include "area_density.inl"
 

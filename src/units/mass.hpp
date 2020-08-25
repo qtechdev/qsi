@@ -17,8 +17,8 @@ namespace qsi {
     constexpr mass operator""_st(unsigned long long st);
     constexpr mass operator""_lb(long double lb);
     constexpr mass operator""_lb(unsigned long long lb);
-  };
-};
+  }
+}
 
 #include "mass.inl"
 
