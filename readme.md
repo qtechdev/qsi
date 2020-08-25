@@ -4,7 +4,7 @@ defined literals.
 
 ## minimum viable product
 - [x] implement all 7 base units
-- [ ] make it easy to define derived units
+- [x] make it easy to define derived units
 
 ## 1.1
 - [ ] add the 22 named derived units
