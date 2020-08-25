@@ -6,6 +6,6 @@ defined literals.
 - [x] implement all 7 base units
 - [x] make it easy to define derived units
 
-## 1.1
+## upcoming
 - [ ] add the 22 named derived units
 - [ ] make it easier to add different unit conversions (e.g. ft -> m, etc.)
